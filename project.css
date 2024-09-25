@@ -1,0 +1,517 @@
+header {
+    background-image: url(./main_banner.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-blend-mode: color-burn;
+}
+
+.header-container {
+    padding: 110px;
+}
+
+.header-container-h1 {
+    color: white;
+}
+
+.text-decoration {
+    text-decoration: overline 5px rgb(13, 129, 230);
+}
+
+.header-container-b {
+    color: white;
+}
+
+.header-container-a {
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.input {
+    border: 0;
+    width: 250px;
+    height: 40px;
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+}
+button{
+    background-color: rgb(13, 129, 230);
+    color: white;
+    padding: 10px;
+}
+.container2 p{
+    color:  rgb(13, 129, 230);
+    display: inline-block;
+}
+.container2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container2 h3{
+    display: inline-block;
+}
+.desc{
+    text-align: center;
+    padding-top: 30px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.img1{
+    background-image: url(./popular_item_1.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+
+.img2{
+    background-image: url(./popular_item_2.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+
+.img3{
+    background-image: url(./featured_item_1.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+
+.img4{
+    background-image: url(./featured_item_2.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+
+.img5{
+    background-image: url(./featured_item_3.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+
+.img6 {
+    background-image: url(./popular_item_1.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+
+.container3{
+    padding-bottom: 50px;
+}
+.container3 p{
+    color:  rgb(13, 129, 230);
+    display: inline-block;
+}
+.circle1 {
+    width: 90px;
+    height: 90px;
+    background: rgb(13, 129, 230);
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+.container3 h3{
+    display: inline-block;
+}
+.container31 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+.container311{
+    position: relative;
+    width: 350px;
+    height: 480px;
+    background-color: white;
+    box-shadow: 3px 3px 5px dimgray;
+}
+.container312{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    place-items: center;
+    text-align: center;
+}
+.container4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container4 p{
+    color:  rgb(13, 129, 230);
+    display: inline-block;
+}
+.container4 h3{
+    display: inline-block;
+}
+.container41{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.container411{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 25px;
+    width: 360px;
+}
+.container51{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.container511{
+    width: 450px;
+}
+.container512{
+    width: 450px;
+}
+.container6{
+    background-image: url('https://watermark.lovepik.com/photo/20211208/large/lovepik-forest-road-highway-picture_501669981.jpg');
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container61{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.frame {
+    margin-top: 50px;
+}
+.container7 p{
+    color:  rgb(13, 129, 230);
+    display: inline-block;
+}
+.container7 h3{
+    display: inline-block;
+}
+.container71{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    gap: 20px;
+}
+.container711{
+    margin-top: 40px;
+    border: 2px solid white;
+}
+.container91{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 15px;
+    padding: 15px;
+}
+.container911{
+    width: 400px;
+}
+footer {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (min-width:320px) and (max-width:425px) {
+    .frame {
+        width: 100%;
+    }
+
+    .header-container {
+        width: 100%;
+    }
+
+    .search-bar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .desc{
+        width: 100%;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .container31{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .container41{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .hr1{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .container5{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .container51{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .container511{
+        padding: 27px;
+    }
+
+    .container512{
+        padding: 20px;
+    }
+
+    .container6{
+        width: 100%;
+    }
+
+    .container71{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .container91{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .container911{
+        padding: 15px;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    .frame {
+        width: 100%;
+    }
+
+    .header-container {
+        width: 100%;
+    }
+
+    .section-container {
+        width: 100%;
+    }
+
+    .section-container1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .horizental {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .section4 {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .section-container4 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container4-child1 {
+        padding: 27px;
+    }
+
+    .section-container4-child2 {
+        padding: 20px;
+    }
+
+    .section5 {
+        width: 100%;
+    }
+
+    .section-container6 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container8 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container8-child1 {
+        padding: 15px;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .frame {
+        width: 100%;
+    }
+
+    .header-container {
+        width: 100%;
+    }
+
+    .section-container {
+        width: 100%;
+    }
+
+    .section-container1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .horizental {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .section4 {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .section-container4 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container4-child1 {
+        padding: 27px;
+    }
+
+    .section-container4-child2 {
+        padding: 20px;
+    }
+
+    .section5 {
+        width: 100%;
+    }
+
+    .section-container6 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container8 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .section-container8-child1 {
+        padding: 15px;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
